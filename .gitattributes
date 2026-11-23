@@ -1,0 +1,4 @@
+# Shell scripts must keep Unix line endings, even when the repo is cloned on Windows
+# (with CRLF endings bash fails with "\r: command not found").
+* text=auto
+*.sh text eol=lf
