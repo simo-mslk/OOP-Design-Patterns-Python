@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+testpaths = ["03-oop", "04-uml", "05-design-patterns", "06-testing"]
+addopts = "-ra -m 'not live'"
+markers = [
+    "unit: fast tests of one function in isolation",
+    "integration: several components tested together (FastAPI app + mocked Groq)",
+    "live: calls the real Groq API, needs GROQ_API_KEY (run with: pytest -m live)",
+]
