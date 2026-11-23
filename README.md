@@ -1,6 +1,6 @@
 # OOP & Design Patterns in Python - exercises
 
-My solutions to the exercises of the **OOP & Design Patterns in Python** course (BSc AIDAMS, ESSEC). Course website: https://courses.dallard.tech/
+My solutions to the exercises of the **OOP & Design Patterns in Python** course. Course website: https://courses.dallard.tech/
 
 | # | Folder | Topic | Slide |
 |---|---|---|---|
